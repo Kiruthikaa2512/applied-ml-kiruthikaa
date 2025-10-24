@@ -11,9 +11,11 @@ from typing import cast
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns  # Required for boxenplot and pairplot
+
 from sklearn.datasets import fetch_california_housing
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error, r2_score, root_mean_squared_error
+from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 from sklearn.model_selection import train_test_split
 
 #########################################
@@ -73,30 +75,29 @@ plt.show()
 
 features: list = ["MedInc", "AveRooms"]
 target: str = "MedHouseVal"
-df_X = data_frame[features]  #  # noqa: N816
+df_X = data_frame[features]  # noqa: N816
 df_y = data_frame[target]
 
 #########################################
 # Section 4. Train a Linear Regression Model
 #########################################
 
-# split the data into training and testing sets
+# Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(df_X, df_y, test_size=0.2, random_state=42)
 
-# make an instance of the model, fit the data, then predict test y values
+# Make an instance of the model, fit the data, then predict test y values
 model = LinearRegression()
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
-# Evaluate the model using R², MAE, and RMSE.
-
+# Evaluate the model using R², MAE, and RMSE
 r2 = r2_score(y_test, y_pred)
 print(f"R²: {r2:.2f}")
 
 mae = mean_absolute_error(y_test, y_pred)
 print(f"MAE: {mae:.2f}")
 
-rmse = root_mean_squared_error(y_test, y_pred)
+rmse = mean_squared_error(y_test, y_pred) ** 0.5  # Fixed: compute RMSE manually
 print(f"RMSE: {rmse:.2f}")
 
 """
@@ -120,5 +121,4 @@ memory usage: 1.4 MB
 R²: 0.46
 MAE: 0.62
 RMSE: 0.84
-
 """
