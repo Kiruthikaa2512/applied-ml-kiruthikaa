@@ -111,7 +111,7 @@ force-sort-within-sections = true
 
 # Optional: Pyright checks that our type hints are correct
 [tool.pyright]
-extraPaths = ["src"]
+extraPaths = ["src", ".venv/Lib/site-packages"]
 include = ["src"]
 pythonVersion = "3.12"
 reportMissingImports = "warning"
