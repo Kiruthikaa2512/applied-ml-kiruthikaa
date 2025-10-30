@@ -7,5 +7,8 @@ Each project follows a professional structure with reproducible environments, do
 
 ## Projects Index
 
-- [**Project 01: California Housing Price Prediction**](project01/kiruthikaa_ml01.html)
-- [**Project 02: Titanic Survival Analysis with Stratified Split**](project02/ml02_kiruthikaa.html)
+- [**Project 01: California Housing Price Prediction**](https://kiruthikaa2512.github.io/applied-ml-kiruthikaa/project01/kiruthikaa_ml01.html)  
+  Explores regression modeling and feature engineering using the California housing dataset.
+
+- [**Project 02: Titanic + Breast Cancer Classification**](https://kiruthikaa2512.github.io/applied-ml-kiruthikaa/project02/)  
+  Documents the setup, workflow, and hosting strategy for classification modeling using Titanic and Breast Cancer datasets.
