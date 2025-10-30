@@ -8221,6 +8221,23 @@ The survival distributions in both the training and test sets closely match the 
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f4067991">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Interpretation-%E2%80%94-Breast-Cancer-Bonus">Interpretation — Breast Cancer Bonus<a class="anchor-link" href="#Interpretation-%E2%80%94-Breast-Cancer-Bonus">¶</a></h2><p>In this bonus section, we applied the same stratified sampling process used in the Titanic dataset to the Breast Cancer dataset from <code>sklearn</code>. This dataset contains two classes: <strong>malignant (0)</strong> and <strong>benign (1)</strong>, with a noticeable class imbalance favoring benign cases.</p>
+<p>By comparing <strong>random vs. stratified train/test splits</strong>, we observed:</p>
+<ul>
+<li><strong>Random splitting</strong> can distort the class proportions, especially in imbalanced datasets.</li>
+<li><strong>Stratified splitting</strong> preserves the original distribution of malignant and benign cases, ensuring that both training and test sets remain representative.</li>
+</ul>
+<p>This reinforces the importance of stratification in medical datasets, where class imbalance is common and preserving diagnostic ratios is critical for reliable model performance.</p>
+</div>
+</div>
+</div>
+</div>
 </main>
 </body>
 </html>
