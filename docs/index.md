@@ -7,7 +7,7 @@ Each project follows a professional structure with reproducible environments, do
 
 ## Projects Index
 
-- [**Project 01: California Housing Price Prediction**](project01/kiruthikaa_ml01.ipynb)
-- [**Project 02: Titanic Survival Analysis with Stratified Split**](project02/ml02_kiruthikaa.ipynb)
-- [**Project 03: Bonus**]
-- [**Project 04: Final Project**]
+- [**Project 01: California Housing Price Prediction**](project01/kiruthikaa_ml01.html)
+- [**Project 02: Titanic Survival Analysis with Stratified Split**](project02/ml02_kiruthikaa.html)
+- [**Project 03: Bonus**](#)
+- [**Project 04: Final Project**](#)
