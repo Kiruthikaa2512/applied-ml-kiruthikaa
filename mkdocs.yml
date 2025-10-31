@@ -36,8 +36,12 @@ markdown_extensions:
 # Navigation sidebar and page routing
 nav:
   - Home: index.md
-  - Project 01: project01/index.md
-  - Project 02: project02/index.md
+  - Project 01:
+      - Overview: project01/index.md
+      - Hosted Notebook: project01/ml01_kiruthikaa.html
+  - Project 02:
+      - Overview: project02/index.md
+      - Hosted Notebook: project02/ml02_kiruthikaa.html
   - Project 03: project03/index.md
   - Project 04: project04/index.md
   - Rebuild Trigger: rebuild.md

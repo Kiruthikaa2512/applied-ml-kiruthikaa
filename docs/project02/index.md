@@ -176,5 +176,6 @@ nav:
 Project 02 combines **data exploration** (Titanic) and **classification modeling** (Breast Cancer) to illustrate a cohesive end-to-end ML workflow.
 It demonstrates **clean data handling**, **feature construction**, and **balanced evaluation** — key foundations for reliable machine learning analysis.
 
+<!-- Rebuild after unpublishing -->
 
 ```
