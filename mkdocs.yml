@@ -12,7 +12,7 @@ docs_dir: docs
 site_dir: site
 
 theme:
-  name: mkdocs
+  name: material
   features:
     - navigation.expand
     - navigation.sections
@@ -42,6 +42,4 @@ nav:
   - Project 02:
       - Overview: project02/index.md
       - Hosted Notebook: project02/ml02_kiruthikaa.html
-  - Project 03: project03/index.md
-  - Project 04: project04/index.md
-  - Rebuild Trigger: rebuild.md
+ 
