@@ -6,7 +6,7 @@
 You can view the full Jupyter notebook for this project here:
 <a href="https://github.com/Kiruthikaa2512/applied-ml-kiruthikaa/blob/main/notebooks/project02/ml02_kiruthikaa.ipynb" target="_blank">View Full Notebook</a>
 
-<a href="project02/ml02_kiruthikaaa.html" target="_blank">View Hosted Project 02</a>
+<a href="/applied-ml-kiruthikaa/project02/ml02_kiruthikaaa.html" target="_blank">View Hosted Project 02</a>
 ---
 
 ## Overview
