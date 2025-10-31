@@ -3,7 +3,11 @@
 **Author:** Kiruthikaa Natarajan Srinivasan  
 **Date:** October 29, 2025  
 **Notebook**
-You can view the full Jupyter notebook for this project here:https://github.com/Kiruthikaa2512/applied-ml-kiruthikaa/blob/main/notebooks/project02/ml02_kiruthikaa.ipynb
+You can view the full Jupyter notebook for this project here:
+<a href="https://github.com/Kiruthikaa251/applied-ml-kiruthikaa/blob/main/project02/project02.ipynb" target="_blank">View Full Notebook</a>
+
+<a href="project02/project02.html" target="_blank">View Hosted Notebook</a>
+
 ---
 
 ## Overview
