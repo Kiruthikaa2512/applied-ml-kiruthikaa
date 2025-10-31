@@ -1,7 +1,9 @@
-# Project 01: California Housing Price Prediction
+# Project 01: Kiruthikaa's California Housing Price Prediction
 
 **Author**: Kiruthikaa Natarajan Srinivasan  
 **Date**: October 15, 2025  
+**Notebook:**You can view the full Jupyter notebook for this project here:https://github.com/Kiruthikaa2512/applied-ml-kiruthikaa/blob/main/notebooks/project01/kiruthikaa_ml01.ipynb
+---
 
 ```markdown
 # Project 01 — California Housing Price Prediction
@@ -50,9 +52,29 @@ Predict median home values across California districts based on income and housi
    - Median income has the strongest correlation with housing prices.
    - Achieved **R² ≈ 0.46**, showing moderate explanatory power.
 
-##  System Setup and Usage
+## System Setup and Execution
 
-### 1. Clone and Navigate
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/ca-housing-ml.git
-cd ca-housing-ml
+git clone https://github.com/<your-username>/ml-projects.git
+cd ml-projects/project02
+````
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+```
+
+### 3. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Notebooks
+
+```bash
+jupyter notebook kiruthikaa_ml01.ipynb
+```

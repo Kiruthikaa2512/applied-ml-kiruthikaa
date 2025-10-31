@@ -1,8 +1,9 @@
-# Project 02 — Titanic + Breast Cancer Classification
+# Project 02 — Kiruthikaa's Titanic Survival Prrediction + Breast Cancer Classification
 
 **Author:** Kiruthikaa Natarajan Srinivasan  
 **Date:** October 29, 2025  
-
+**Notebook**
+You can view the full Jupyter notebook for this project here:https://github.com/Kiruthikaa2512/applied-ml-kiruthikaa/blob/main/notebooks/project02/ml02_kiruthikaa.ipynb
 ---
 
 ## Overview
