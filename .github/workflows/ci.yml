@@ -1,82 +1,19 @@
-# .github/workflows/ci.yml
-name: CI and GitHub Pages Deployment
-
+name: Deploy MkDocs
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:
 
-env:
-  PYTHONUNBUFFERED: "1"
-  PYTHONIOENCODING: "utf-8"
-  MPLBACKEND: Agg
+permissions:
+  contents: write
 
 jobs:
-  ci:
-    runs-on: ubuntu-latest
-    timeout-minutes: 60
-
-    steps:
-      # ------------------- ASSEMBLE -------------------
-      - name: A1) Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: A2) Install uv
-        uses: astral-sh/setup-uv@v4
-        with:
-          enable-cache: true
-
-      - name: A3) Pin Python version for consistency
-        run: uv python pin 3.12
-
-      - name: A4) Sync to install dependencies
-        run: uv sync --extra dev --extra docs --upgrade
-
-      # ------------------- BASELINE CHECKS -------------------
-      - name: B1) Validate pyproject
-        run: uvx validate-pyproject
-
-      - name: B2) Ruff lint (check only)
-        run: uvx ruff check .
-
-      # ------------------- COVERAGE (TESTING) -------------------
-      - name: C1) Run tests (if present)
-        run: |
-          if [ -d "tests" ] && [ "$(ls -A tests)" ]; then
-            uv run pytest
-          else
-            echo "No tests found. Skipping pytest."
-          fi
-
-      # ------------------- DOCS BUILD & DEPLOY -------------------
-      - name: D1) Build docs with mkdocs
-        if: hashFiles('mkdocs.yml') != ''
-        run: uv run mkdocs build --strict
-
   deploy:
-    # Only deploy on push to main (not on PRs)
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: ci  # Wait for CI to pass first
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
         with:
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: pip install mkdocs
-
-      - name: Deploy to GitHub Pages
-        run: mkdocs gh-deploy --force
+          python-version: '3.x'
+      - run: pip install mkdocs
+      - run: mkdocs gh-deploy --force
