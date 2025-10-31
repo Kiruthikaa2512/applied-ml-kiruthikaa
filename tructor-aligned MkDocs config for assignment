@@ -1,0 +1,45 @@
+[33mf92e239[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update Project 2 page with new-tab notebook link
+[33m09ace74[m Update mkdocs.yml/workflow for GitHub Actions deployment
+[33m252ef3a[m Add GitHub Actions workflow to deploy MkDocs
+[33m01975d2[m Fix deployment workflow
+[33mc63dd98[m Hosting the website for Project02
+[33m47d48b9[m Add GitHub Pages deployment
+[33mf44b8b0[m Add GitHub Action for MkDocs deployment
+[33mf3cd0f4[m Hosting the website for Project02
+[33m2c33d11[m Add rebuild.md to trigger GitHub Pages deployment
+[33m0981ca9[m Hosting the website for Project02
+[33mbea1a0e[m Ignore site folder for GitHub Pages
+[33m6a2a133[m Ignore site folder, let GitHub Pages build from docs
+[33m734b1a4[m Fix mkdocs.yml for clean hosting
+[33m8f4e78a[m Add Project 02 docs and MkDocs config
+[33mc303e2a[m Update Project 02 documentation for hosted site
+[33m5ec18f9[m Update index.md to link to Project 02 documentation page
+[33md7a6baf[m Final instructor-aligned MkDocs config for assignment
+[33mf9375a0[m Update index.md with latest fixes
+[33mf4a06e6[m Add Breast Cancer interpretation and re-export Project 02 HTML
+[33m6b609cb[m Update Project 02 notebook and HTML with Breast Cancer bonus section
+[33m340bdb3[m Update index links to lightweight HTML versions
+[33mc5839de[m Add lightweight HTML versions of Project 01 and 02
+[33m44c0031[m Remove oversized HTML versions of Project 01 and 02
+[33m4672b4c[m Add lightweight HTML versions of Project 01 and 02
+[33m6bd021f[m Remove oversized HTML versions of Project 01 and 02
+[33mceb37a8[m Add HTML versions of Project 01 and 02 notebooks
+[33md6b6e68[m Add Project 01 notebook to docs for GitHub Pages
+[33me7ec115[m Fix Project 01 link in index
+[33m39d7342[m Updated index with correct project titles and notebook links
+[33m8354dff[m Updated index with correct project titles and notebook links
+[33m6a66a97[m Re-added valid notebook for GitHub Pages
+[33m05cba1a[m Force removed corrupted notebook
+[33m3c73c4c[m Added Project 2 notebook to docs/project02 for GitHub Pages
+[33m9b9837e[m Completed Titanic Dataset Project02
+[33mf9079d5[m Project1_CA Housing Market Completed
+[33m7e84a0d[m Project1_CA Housing Market Completed
+[33mdfb44ab[m Project1_CA Housing Market Completed
+[33m6955721[m Project1_CA Housing Market Completed
+[33md808e82[m Project1_CA Housing Market Completed
+[33m8359b53[m Oct 2025
+[33m2e86f7b[m Oct 2025
+[33mb32c4b1[m keep only vs code settings
+[33m6a09a99[m initial commit
+[33m5ba4e58[m Update README.md
+[33m0e472b5[m Initial commit
