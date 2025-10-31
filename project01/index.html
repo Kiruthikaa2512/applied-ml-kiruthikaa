@@ -63,23 +63,14 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Project 03</a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../project03/index.md" class="dropdown-item">Overview</a>
-</li>
-                                </ul>
+                            <li class="nav-item">
+                                <a href="../project03/index.md" class="nav-link">Project 03</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Project 04</a>
-                                <ul class="dropdown-menu">
-                                    
-<li>
-    <a href="../project04/index.md" class="dropdown-item">Overview</a>
-</li>
-                                </ul>
+                            <li class="nav-item">
+                                <a href="../project04/index.md" class="nav-link">Project 04</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../rebuild/" class="nav-link">Rebuild Trigger</a>
                             </li>
                         </ul>
 
@@ -120,25 +111,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#project-01-california-housing-price-prediction" class="nav-link">Project 01: California Housing Price Prediction</a>
+            <li class="nav-item" data-bs-level="1"><a href="#project-01-kiruthikaas-california-housing-price-prediction" class="nav-link">Project 01: Kiruthikaa's California Housing Price Prediction</a>
               <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-bs-level="1"><a href="#project-01-california-housing-price-prediction_1" class="nav-link">Project 01 — California Housing Price Prediction</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#project-overview" class="nav-link">Project Overview</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#key-steps" class="nav-link">Key Steps</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#system-setup-and-usage" class="nav-link">System Setup and Usage</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -146,102 +120,79 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="project-01-california-housing-price-prediction">Project 01: California Housing Price Prediction<a class="headerlink" href="#project-01-california-housing-price-prediction" title="Permanent link">&para;</a></h1>
+<h1 id="project-01-kiruthikaas-california-housing-price-prediction">Project 01: Kiruthikaa's California Housing Price Prediction<a class="headerlink" href="#project-01-kiruthikaas-california-housing-price-prediction" title="Permanent link">&para;</a></h1>
 <p><strong>Author</strong>: Kiruthikaa Natarajan Srinivasan<br />
-<strong>Date</strong>: October 15, 2025  </p>
-<p>```markdown</p>
-<h1 id="project-01-california-housing-price-prediction_1">Project 01 — California Housing Price Prediction<a class="headerlink" href="#project-01-california-housing-price-prediction_1" title="Permanent link">&para;</a></h1>
-<p>Welcome to the <strong>California Housing ML Project</strong> documentation.<br />
-This project demonstrates a workflow for <strong>data exploration</strong>, <strong>feature selection</strong>, and <strong>linear regression modeling</strong> using the <strong>California Housing dataset</strong> from <code>scikit-learn</code>.</p>
+<strong>Date</strong>: October 15, 2025<br />
+<strong>Notebook:</strong>You can view the full Jupyter notebook for this project here:https://github.com/Kiruthikaa2512/applied-ml-kiruthikaa/blob/main/notebooks/project01/kiruthikaa_ml01.ipynb</p>
 <hr />
-<h2 id="project-overview">Project Overview<a class="headerlink" href="#project-overview" title="Permanent link">&para;</a></h2>
-<h3 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link">&para;</a></h3>
-<p>Predict median home values across California districts based on income and housing features.</p>
-<h3 id="dataset-summary">Dataset Summary<a class="headerlink" href="#dataset-summary" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>MedInc</code></td>
-<td>Median income in block group</td>
-</tr>
-<tr>
-<td><code>HouseAge</code></td>
-<td>Median house age</td>
-</tr>
-<tr>
-<td><code>AveRooms</code></td>
-<td>Average number of rooms</td>
-</tr>
-<tr>
-<td><code>AveBedrms</code></td>
-<td>Average number of bedrooms</td>
-</tr>
-<tr>
-<td><code>Population</code></td>
-<td>Block group population</td>
-</tr>
-<tr>
-<td><code>AveOccup</code></td>
-<td>Average household occupancy</td>
-</tr>
-<tr>
-<td><code>Latitude</code></td>
-<td>Block group latitude</td>
-</tr>
-<tr>
-<td><code>Longitude</code></td>
-<td>Block group longitude</td>
-</tr>
-<tr>
-<td><strong>Target:</strong> <code>MedHouseVal</code></td>
-<td>Median house value (in $100,000s)</td>
-</tr>
-</tbody>
-</table>
-<h2 id="key-steps">Key Steps<a class="headerlink" href="#key-steps" title="Permanent link">&para;</a></h2>
-<ol>
-<li><strong>Import and Inspect the Data</strong></li>
-<li>Load dataset using <code>fetch_california_housing</code>.</li>
-<li>
-<p>Examine data structure and summary statistics.</p>
-</li>
-<li>
-<p><strong>Explore the Data</strong></p>
-</li>
-<li>Visualize distributions with histograms.</li>
-<li>
-<p>Use optional boxenplots and pairplots for in-depth relationships.</p>
-</li>
-<li>
-<p><strong>Feature Selection</strong></p>
-</li>
-<li>
-<p>Focused on key predictors: <code>MedInc</code> and <code>AveRooms</code>.</p>
-</li>
-<li>
-<p><strong>Model Training</strong></p>
-</li>
-<li>Linear Regression using Scikit-Learn.</li>
-<li>
-<p>Evaluate model with <code>R²</code>, <code>MAE</code>, and <code>RMSE</code>.</p>
-</li>
-<li>
-<p><strong>Findings</strong></p>
-</li>
-<li>Median income has the strongest correlation with housing prices.</li>
-<li>Achieved <strong>R² ≈ 0.46</strong>, showing moderate explanatory power.</li>
-</ol>
-<h2 id="system-setup-and-usage">System Setup and Usage<a class="headerlink" href="#system-setup-and-usage" title="Permanent link">&para;</a></h2>
-<h3 id="1-clone-and-navigate">1. Clone and Navigate<a class="headerlink" href="#1-clone-and-navigate" title="Permanent link">&para;</a></h3>
-<p>```bash
-git clone https://github.com/<your-username>/ca-housing-ml.git
-cd ca-housing-ml</p></div>
+<div class="codehilite"><pre><span></span><code><span class="gh"># Project 01 — California Housing Price Prediction</span>
+
+Welcome to the <span class="gs">**California Housing ML Project**</span> documentation.  
+This project demonstrates a workflow for <span class="gs">**data exploration**</span>, <span class="gs">**feature selection**</span>, and <span class="gs">**linear regression modeling**</span> using the <span class="gs">**California Housing dataset**</span> from <span class="sb">`scikit-learn`</span>.
+
+---
+
+<span class="gu">## Project Overview</span>
+
+<span class="gu">### Objective</span>
+Predict median home values across California districts based on income and housing features.
+
+<span class="gu">### Dataset Summary</span>
+| Feature | Description |
+|----------|--------------|
+| <span class="sb">`MedInc`</span> | Median income in block group |
+| <span class="sb">`HouseAge`</span> | Median house age |
+| <span class="sb">`AveRooms`</span> | Average number of rooms |
+| <span class="sb">`AveBedrms`</span> | Average number of bedrooms |
+| <span class="sb">`Population`</span> | Block group population |
+| <span class="sb">`AveOccup`</span> | Average household occupancy |
+| <span class="sb">`Latitude`</span> | Block group latitude |
+| <span class="sb">`Longitude`</span> | Block group longitude |
+| <span class="gs">**Target:**</span> <span class="sb">`MedHouseVal`</span> | Median house value (in $100,000s) |
+
+<span class="gu">## Key Steps</span>
+
+<span class="k">1.</span> <span class="gs">**Import and Inspect the Data**</span>
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Load dataset using <span class="sb">`fetch_california_housing`</span>.
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Examine data structure and summary statistics.
+
+<span class="k">2.</span> <span class="gs">**Explore the Data**</span>
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Visualize distributions with histograms.
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Use optional boxenplots and pairplots for in-depth relationships.
+
+<span class="k">3.</span> <span class="gs">**Feature Selection**</span>
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Focused on key predictors: <span class="sb">`MedInc`</span> and <span class="sb">`AveRooms`</span>.
+
+<span class="k">4.</span> <span class="gs">**Model Training**</span>
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Linear Regression using Scikit-Learn.
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Evaluate model with <span class="sb">`R²`</span>, <span class="sb">`MAE`</span>, and <span class="sb">`RMSE`</span>.
+
+<span class="k">5.</span> <span class="gs">**Findings**</span>
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Median income has the strongest correlation with housing prices.
+<span class="w">   </span><span class="k">-</span><span class="w"> </span>Achieved <span class="gs">**R² ≈ 0.46**</span>, showing moderate explanatory power.
+
+<span class="gu">## System Setup and Execution</span>
+
+<span class="gu">### 1. Clone the Repository</span>
+```bash
+git clone https://github.com/&lt;your-username&gt;/ml-projects.git
+cd ml-projects/project02
+````
+
+<span class="gu">### 2. Create a Virtual Environment</span>
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+</code></pre></div>
+
+<h3 id="3-install-requirements">3. Install Requirements<a class="headerlink" href="#3-install-requirements" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</code></pre></div>
+
+<h3 id="4-run-the-notebooks">4. Run the Notebooks<a class="headerlink" href="#4-run-the-notebooks" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span><code>jupyter<span class="w"> </span>notebook<span class="w"> </span>kiruthikaa_ml01.ipynb
+</code></pre></div></div>
             </div>
         </div>
 
