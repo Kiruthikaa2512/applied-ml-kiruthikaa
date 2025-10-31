@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Kiruthikaa Natarajan Srinivasan">
+        <link rel="canonical" href="https://kiruthikaa2512.github.io/applied-ml-kiruthikaa/project01/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Overview - Kiruthikaa’s Applied ML Projects</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../css/brands.min.css" rel="stylesheet">
+        <link href="../css/solid.min.css" rel="stylesheet">
+        <link href="../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Kiruthikaa’s Applied ML Projects</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Project 01</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Overview</a>
+</li>
+                                    
+<li>
+    <a href="ml01_kiruthikaa.html" class="dropdown-item">Hosted Notebook</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Project 02</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../project02/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../project02/ml02_kiruthikaa.html" class="dropdown-item">Hosted Notebook</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Project 03</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../project03/index.md" class="dropdown-item">Overview</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Project 04</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../project04/index.md" class="dropdown-item">Overview</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../project02/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/kiruthikaa2512/applied-ml-kiruthikaa/edit/master/docs/project01/index.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#project-01-california-housing-price-prediction" class="nav-link">Project 01: California Housing Price Prediction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#project-01-california-housing-price-prediction_1" class="nav-link">Project 01 — California Housing Price Prediction</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#project-overview" class="nav-link">Project Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#key-steps" class="nav-link">Key Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#system-setup-and-usage" class="nav-link">System Setup and Usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="project-01-california-housing-price-prediction">Project 01: California Housing Price Prediction<a class="headerlink" href="#project-01-california-housing-price-prediction" title="Permanent link">&para;</a></h1>
+<p><strong>Author</strong>: Kiruthikaa Natarajan Srinivasan<br />
+<strong>Date</strong>: October 15, 2025  </p>
+<p>```markdown</p>
+<h1 id="project-01-california-housing-price-prediction_1">Project 01 — California Housing Price Prediction<a class="headerlink" href="#project-01-california-housing-price-prediction_1" title="Permanent link">&para;</a></h1>
+<p>Welcome to the <strong>California Housing ML Project</strong> documentation.<br />
+This project demonstrates a workflow for <strong>data exploration</strong>, <strong>feature selection</strong>, and <strong>linear regression modeling</strong> using the <strong>California Housing dataset</strong> from <code>scikit-learn</code>.</p>
+<hr />
+<h2 id="project-overview">Project Overview<a class="headerlink" href="#project-overview" title="Permanent link">&para;</a></h2>
+<h3 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link">&para;</a></h3>
+<p>Predict median home values across California districts based on income and housing features.</p>
+<h3 id="dataset-summary">Dataset Summary<a class="headerlink" href="#dataset-summary" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MedInc</code></td>
+<td>Median income in block group</td>
+</tr>
+<tr>
+<td><code>HouseAge</code></td>
+<td>Median house age</td>
+</tr>
+<tr>
+<td><code>AveRooms</code></td>
+<td>Average number of rooms</td>
+</tr>
+<tr>
+<td><code>AveBedrms</code></td>
+<td>Average number of bedrooms</td>
+</tr>
+<tr>
+<td><code>Population</code></td>
+<td>Block group population</td>
+</tr>
+<tr>
+<td><code>AveOccup</code></td>
+<td>Average household occupancy</td>
+</tr>
+<tr>
+<td><code>Latitude</code></td>
+<td>Block group latitude</td>
+</tr>
+<tr>
+<td><code>Longitude</code></td>
+<td>Block group longitude</td>
+</tr>
+<tr>
+<td><strong>Target:</strong> <code>MedHouseVal</code></td>
+<td>Median house value (in $100,000s)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-steps">Key Steps<a class="headerlink" href="#key-steps" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>Import and Inspect the Data</strong></li>
+<li>Load dataset using <code>fetch_california_housing</code>.</li>
+<li>
+<p>Examine data structure and summary statistics.</p>
+</li>
+<li>
+<p><strong>Explore the Data</strong></p>
+</li>
+<li>Visualize distributions with histograms.</li>
+<li>
+<p>Use optional boxenplots and pairplots for in-depth relationships.</p>
+</li>
+<li>
+<p><strong>Feature Selection</strong></p>
+</li>
+<li>
+<p>Focused on key predictors: <code>MedInc</code> and <code>AveRooms</code>.</p>
+</li>
+<li>
+<p><strong>Model Training</strong></p>
+</li>
+<li>Linear Regression using Scikit-Learn.</li>
+<li>
+<p>Evaluate model with <code>R²</code>, <code>MAE</code>, and <code>RMSE</code>.</p>
+</li>
+<li>
+<p><strong>Findings</strong></p>
+</li>
+<li>Median income has the strongest correlation with housing prices.</li>
+<li>Achieved <strong>R² ≈ 0.46</strong>, showing moderate explanatory power.</li>
+</ol>
+<h2 id="system-setup-and-usage">System Setup and Usage<a class="headerlink" href="#system-setup-and-usage" title="Permanent link">&para;</a></h2>
+<h3 id="1-clone-and-navigate">1. Clone and Navigate<a class="headerlink" href="#1-clone-and-navigate" title="Permanent link">&para;</a></h3>
+<p>```bash
+git clone https://github.com/<your-username>/ca-housing-ml.git
+cd ca-housing-ml</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js"></script>
+        <script src="../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
