@@ -1,7 +1,7 @@
-# Project 03: Titanic Survival Prediction — Classifier Comparison
+  # Project 03: Kiruthikaa's Titanic Classifier
 
-**Author:** Kiruthikaa Natarajan Srinivasan  
-**Date:** November 4, 2025
+  **Author:** Kiruthikaa Natarajan Srinivasan  
+  **Date:** November 4, 2025
 
 ## Overview
 

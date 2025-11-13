@@ -45,4 +45,7 @@ nav:
   - Project 03:
       - Overview: project03/index.md
       - Hosted Notebook: project03/ml03_kiruthikaa.html
+  - Project 04:
+      - Overview: project04/index.md
+      - Hosted Notebook: project03/ml04_kiruthikaa.html
  
