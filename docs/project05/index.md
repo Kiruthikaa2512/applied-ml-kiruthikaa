@@ -3,6 +3,10 @@
 **Author:** Kiruthikaa Natarajan Srinivasan
 **Date:** November 18, 2025
 
+**Notebook**  
+You can view the full Jupyter notebook for this project here:  
+<a href="https://github.com/Kiruthikaa2512/applied-ml-kiruthikaa/blob/main/notebooks/project05/ensemble-kiruthikaa.ipynb" target="_blank">View Full Notebook</a>  
+
 ## Overview
 
 This project applies ensemble machine learning methods to classify red wine quality using data from the UCI Wine Quality dataset. The task is to predict whether a wine falls into the low, medium, or high quality category based on its physicochemical characteristics.
