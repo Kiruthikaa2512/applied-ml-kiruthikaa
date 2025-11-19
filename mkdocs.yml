@@ -47,5 +47,7 @@ nav:
       - Hosted Notebook: project03/ml03_kiruthikaa.html
   - Project 04:
       - Overview: project04/index.md
-      - Hosted Notebook: project03/ml04_kiruthikaa.html
- 
+      - Hosted Notebook: project04/ml04_kiruthikaa.html
+  - Project 05:
+      - Overview: project05/index.md
+      - Hosted Notebook: project05/ensemble_kiruthikaa.html
