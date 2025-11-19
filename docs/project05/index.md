@@ -103,5 +103,4 @@ These steps could help improve performance, particularly on the minority classes
 
 ## Conclusion
 
-This project helped me practice applying ensemble models to a real classification problem. Working through the full pipeline—data exploration, feature engineering, model building, evaluation, and comparison—gave me a clearer understanding of how ensemble methods behave and how to interpret their results. The project also emphasized the importance of communicating findings clearly and basing conclusions on data.
-
+This project helped me practice applying ensemble models to a real classification problem. Working through the full pipeline—data exploration, feature engineering, model building, evaluation, and comparison—gave me a clearer understanding of how ensemble methods behave and how to interpret their results. The project also emphasized the importance of communicating findings clearly and basing conclusions on data. 
